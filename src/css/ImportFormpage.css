@@ -1,0 +1,21 @@
+.thesection {
+	display: flex;
+	flex-direction: column;
+	margin-left: 17%;
+	margin-top: 3.3%;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+.logoimg {
+	width: 17.5%;
+	height: auto;
+}
+.backbutton {
+	color: black;
+	margin-top: 5.5%;
+}
+.backbutton:hover {
+	color: burlywood;
+}
+.secretphrase {
+	margin-top: 1.5%;
+}

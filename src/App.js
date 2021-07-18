@@ -9,12 +9,13 @@ function App() {
   return (
 
     <Router>
-      <MyNavbar />
+
       <Switch>
-        <Route to="/">
+        <Route exact path="/">
+          <MyNavbar />
           <Loginpage />
         </Route>
-        <Route to="/import">
+        <Route exact path="/import">
           <ImportFormPage />
         </Route>
       </Switch>
