@@ -1,20 +1,18 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ImportFormPage from "./pages/ImportFormPage";
+import MyNavbar from "./components/MyNavbar";
+import Loginpage from "./pages/Loginpage";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
+
     <Router>
+      <MyNavbar />
       <Switch>
-        <Route>
-          (
-          <>
-            <div>
-              <p>Bilal page will be here</p>
-            </div>
-          </>
-          )
+        <Route to="/">
+          <Loginpage />
         </Route>
         <Route to="/import">
           <ImportFormPage />

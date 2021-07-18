@@ -1,0 +1,13 @@
+.textsection {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.textsectionpara {
+	color: white;
+	text-align: center;
+}
+.timer {
+	margin-top: -10px;
+}

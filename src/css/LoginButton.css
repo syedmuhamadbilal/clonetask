@@ -1,0 +1,39 @@
+@media (min-width: 768px) {
+	.md\:flex {
+		display: flex;
+	}
+}
+.px-20 {
+	padding: 0px 20px 0px 20px;
+}
+.items-center {
+	align-items: center;
+	justify-content: center;
+}
+.hidden {
+	display: none;
+}
+.flex {
+	display: flex;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+.bg-primary-4 {
+	background-color: #046cfc;
+}
+.mr-8 {
+	margin-right: 8px;
+}
+
+.mt-4 {
+	margin-top: 5px;
+	padding: 0px 0px 15px 0px;
+}
+svg {
+	display: block;
+}
+a {
+	color: white !important;
+	text-decoration: none !important;
+}
